@@ -25,7 +25,7 @@ app.use(apiLimiter);
 
 app.get("/", (req, res) => {
   res.send(
-    "<h2>HNG 13 Backend Task 0</h2><a href='/me'>Click to view my profile </a>"
+    "<h1>HNG 13 Backend Task  Stage 0</h1><a href='/me'>Click to view my profile </a>"
   );
 });
 app.use("/me", Router);
