@@ -6,7 +6,7 @@ import Router from "./routes/getProfile.js";
 import rateLimit from "express-rate-limit"
 
 dotenv.config();
-const Port = process.env.PORT || 3001
+const Port = process.env.PORT 
 
 const app = express();
 
