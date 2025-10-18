@@ -3,7 +3,7 @@ import { fetchCatFact } from "../services/catFact.js";
 export const getProfile = async (req, res) => {
   try {
     const user = {
-      email: "goodz575@gmail.com",
+      email: "goodyz575@gmail.com",
       name: "Nwachukwu Goodness",
       stack: "Node.js/Express",
     };
