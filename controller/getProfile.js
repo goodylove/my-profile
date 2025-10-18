@@ -10,6 +10,7 @@ export const getProfile = async (req, res) => {
     const timestamp = new Date().toISOString();
 
     const fact = await fetchCatFact();
+    console.log(fact)
     res.status(200).json({
       status: "success",
       user,
